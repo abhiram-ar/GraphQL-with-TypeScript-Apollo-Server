@@ -1,0 +1,17 @@
+type Query {
+	"A currated array of listing on the homepage"
+	featuredListing: [Listing!]!
+}
+
+"A particilar intergalactic location available for booking"
+type Listing {
+	id: ID!
+	"The listing's title"
+	title: String!
+	"The number of beds available"
+	numOfBeds: Int
+
+	costPerNight: Float
+	"Indicates the listing is available for booking"
+	closedForBookings: Boolean
+}
