@@ -16,7 +16,7 @@ type Listing {
 	description: String!
 	costPerNight: Float
 	"Indicates the listing is available for booking"
-	closedForBookings: Boolean
+	closedForBookings: Boolean!
 	"The ammenities available for Listing"
 	amenities: [Amenity!]!
 }
