@@ -1,5 +1,3 @@
-# (Odyssey Course) Intro to GraphQL with TypeScript and Dataloaders
-
 **Intro to GraphQL with TypeScript**. You can find the [course lessons and instructions](https://apollographql.com/tutorials/intro-typescript) on Odyssey, [Apollo](https://apollographql.com)'s learning platform.
 
 
